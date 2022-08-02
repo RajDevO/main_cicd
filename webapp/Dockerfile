@@ -8,4 +8,3 @@ EXPOSE 8082
 WORKDIR /var/www/html
 VOLUME /var/log/apache2
 ADD web.tar.gz /var/www/html/
-#COPY web.tar.gz /var/www/html/
